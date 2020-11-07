@@ -4,3 +4,4 @@ class place():
         self.location = location
         self.number = number
         self.photo = photo
+
