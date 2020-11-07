@@ -1,6 +1,23 @@
 
 
+body{
+  background-color: #2C2F33;
+  color: black;
+}
 
-body {
-        background: rgba(0, 128, 0, 0.1) /* Green background with 10% opacity */
-    }
+Box{
+  background-color: #89cff0;
+  color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
