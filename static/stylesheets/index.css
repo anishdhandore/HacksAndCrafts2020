@@ -1,3 +1,9 @@
+a{
+    color:  #5e666e;
+  }
+  a:hover{
+    color: white;
+  }
 body{
     text-align: center;
 }
@@ -17,14 +23,3 @@ container{
     margin-right: auto;
     width: 50%;
 }
-
-a{
-    color:  #5e666e;
-  }
-  a:hover{
-    color: white;
-  }
-
-
-
-
