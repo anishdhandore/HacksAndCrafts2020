@@ -28,17 +28,16 @@
 
     <div class="container">
       <table class="table">
-        <thead>
+        <thead class="text-center">
           <tr>
-
-            <th>{{ header }}</th>
+            <th><h1 class="text-center"> {{ header }} </h1></th>
             <th></th>
           </tr>
         </thead>
         <tbody>
           {% for biz in places %}
             <tr>
-              <td><img  class="img-thumbnail rounded" src="{{ biz.photo }}" alt="photo"></td>
+              <td><img  class="img-thumbnail" src="{{ biz.photo }}" alt="photo"></td>
               <th>
                 Name: {{ biz.name }} <br>
                 Address: {{ biz.address[0] }} {{biz.address[1]}}<br>
@@ -46,15 +45,11 @@
 
               </th>
               <td></td>
-              <td href = "google.com">Take Me There!</td>
+              <td><a href="{{biz.link}}">Take Me There!</a></td>
             </tr>
           {% endfor %}
         </tbody>
       </table>
     </div>
-
-
-    <script type="text/javascript"
-        src="{{ url_for('static', filename='search.js') }}"></script>
   </body>
 </html>

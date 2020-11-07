@@ -29,13 +29,14 @@ def getPlaces(city , choice):
         number = biz['display_phone']
         photo = biz['image_url']
         #statement ="Name : ", name , "\n" ,"Location: " , address , "\n" ,"Phone Number: " , str(number) , "\n"
-
+        link = ("https://www.google.com/maps/search/" + name)
         #newplace = Place(name , address , number , photo)
         newplace = {
             'name': name,
             'address': address,
             'number': number,
-            'photo' : photo
+            'photo' : photo,
+            'link': link
         }
         places.append(newplace)
 
