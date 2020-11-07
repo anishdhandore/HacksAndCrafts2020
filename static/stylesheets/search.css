@@ -1,7 +1,29 @@
-h1{
-  color: red;
+a{
+  color:  #5e666e;
+}
+a:hover{
+  color: white;
 }
 
-a:hover{
+
+
+h1{
+  color: white;
+}
+h2{
+  color: white;
+}
+
+
+
+
+body{
+  background-color: #2C2F33;
+}
+
+td{
+  color: white;
+}
+th{
   color: white;
 }

@@ -1,20 +1,115 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+  <style>
+    table, th, td{
+      padding: 50px;
+
+    }
+    table.center{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
     <meta charset="utf-8">
     <link rel="stylesheet"href="{{ url_for('static', filename='stylesheets/index.css') }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+    crossorigin="anonymous">
     <title>Our Artistic Space</title>
   </head>
-  <body>
-    <!-- Keep Navbar the same for all webpages-->
+
+  <body style="background-color:  #2C2F33; color: azure;">
+
+      <!-- Keep Navbar the same for all webpages-->
     <nav class="navbar justify-content-center bg-dark">
-      <a class="navbar-brand mx-5 text-muted" href="/">Home</a>
-      <a class="navbar-brand mx-5 text-muted" href="/search">Search</a>
-      <a class="navbar-brand mx-5 text-muted" href="/about">About</a>
+      <a class="navbar-brand mx-5 " href="/">Home</a>
+      <a class="navbar-brand mx-5" href="/search">Search</a>
+      <a class="navbar-brand mx-5" href="/about">About</a>
     </nav>
 
 
-    <h1>This is the home page</h1>
+    <div class="container text-center my-5">
+      <h1 style="font-size:40px;
+      color: #c9c9c9;
+      text-align: center;
+      font-family:initial">
+      Learn More and Connect with Your Local Art Community
+      </h1>
+    <img src="/static/logo_new.jpg" alt="centered image"
+    class= "img-fluid center-block">
+    </div>
+
+
+    <div class="container text-center">
+      <h2 style="font-size: 25px;
+      color: #edeff2;
+      font-family:'Courier New', Courier, monospace;">
+      What is Our Artistic Space?
+      </h2>
+      <h5 style="font-size: 20px;
+      color: #7e8082;
+      font-family:cursive ;">
+      Our Artistic Space is aimed to bring the art community together. Find nearby museums, gallaries, stores and
+      take away loads of memories worth a lifetime.
+      Our platform will help artists learn more about various art-related buisness, stores, and so much more!
+      With a fresh rebranded look, our website's vision is to encourage young artists as well as to ensure that you
+      as our customer get the Best of Art to enjoy in your personal spaces. Use our search button to navigate through
+      the page and have a good time exploring the beauty of art around you!
+      </h5>
+    </div>
+
+
+
+
+    <table style="width: 1000px; padding-top: 100px;" class="center">
+      <tr>
+        <td colspan="8">
+          <img src="/static/artmuseum.jpg" style="border: 5px black">
+        </td>
+        <td colspan="4">
+          <h4>Art Museums</h4><br>Come check for venues for the latest cultural exchanges and artistic activities
+          such as performance arts, music concerts, or poetry readings
+        </td>
+      </tr>
+      <tr>
+        <td colspan="8">
+          <img src="/static/artgallery.png">
+        </td>
+        <td colspan="4">
+          <h4>Art Gallaries</h4><br>Looks so Good on the Outside, It'll Make You Feel Good Inside.
+          Search for artistic gallaries near you and get surprised by our magnifiecient collection of
+          paintings, sculptures, costumes, and collages.
+        </td>
+      </tr>
+      <tr>
+        <td colspan="8">
+          <img src="/static/artschool.jpg">
+        </td>
+        <td colspan="4">
+          <h4>Art Schools</h4><br>What you guys waiting for? We even help you connect to your dream institutions
+          that teach art at an exceptional value! Get started perfect from beginning to end!
+        </td>
+      </tr>
+      <tr>
+        <td colspan="8">
+          <img src="/static/artsupplies.jpg">
+        </td>
+        <td colspan="4">
+          <h4>Art Stores</h4><br>Let your home now dive into the big ocean of fascinating art. Decorate your home
+          with sketches, artifacts, mini sculptures that we will link you to. You are off to a great start, folks!
+        </td>
+      </tr>
+    </table>
+
+    What's on your mind today?
+    <form action="/" method="POST">
+      <input type="post" name="value">
+
+      <input type="submit" name="Enter">
+    </form>
+
+    <link rel="stylesheet"href="{{ url_for('static', filename='stylesheets/index.css') }}">
+
   </body>
 </html>

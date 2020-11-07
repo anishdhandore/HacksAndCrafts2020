@@ -1,0 +1,25 @@
+a{
+    color:  #5e666e;
+  }
+  a:hover{
+    color: white;
+  }
+body{
+    text-align: center;
+}
+h1{
+    color: beige;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+container{
+    width: 130px;
+    height: 60px;
+    display: table;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
