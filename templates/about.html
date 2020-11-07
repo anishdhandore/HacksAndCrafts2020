@@ -6,15 +6,98 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Our Artistic Space</title>
   </head>
-  <body>
     <!-- Keep Navbar the same for all webpages-->
     <nav class="navbar justify-content-center bg-dark">
-      <a class="navbar-brand mx-5 text-muted" href="/">Home</a>
-      <a class="navbar-brand mx-5 text-muted" href="/search">Search</a>
-      <a class="navbar-brand mx-5 text-muted" href="/about">About</a>
+      <a class="navbar-brand mx-5 " href="/">Home</a>
+      <a class="navbar-brand mx-5" href="/search">Search</a>
+      <a class="navbar-brand mx-5" href="/about">About</a>
     </nav>
+    <h1 class = "text-center my-5" style="color:white">The Artists Who Created the Site </h1>
+
+    <br><br>
 
 
-    <h1>This is the about page</h1>
-  </body>
+
+<body style="background-color:#2C2F33">
+
+
+  <table border="5" cellpadding="50" cellspacing="0" align=center style="background-color:#000000" width="290" height="290">
+<th> <img src="https://media.discordapp.net/attachments/763622550998614026/774424061899046912/IMG_20200528_025950_535.jpg?width=574&height=574" width="270" height="270" class="rounded-circle"> </th>
+<th> <img src="https://media.discordapp.net/attachments/764010632047362088/774404794705510400/me.jpg" width="270" height="270" class="rounded-circle"> </th>
+<th> <img src="https://media.discordapp.net/attachments/624471626653892609/774426070761078784/unknown.png?width=411&height=574"  width="270" height="270" class="rounded-circle"> </th>
+</table>
+
+<table border="5" cellpadding="50" cellspacing="0" align=center style="background-color:#000000" width="250" height="50">
+  <th><table border="5" cellpadding="5" cellspacing="0" align=center style="background-color:#89cff0" width="270" height="5">
+    <th>
+      <h3 class = "text-center" > Anish <br> </h3>
+  <h4 class= "text-center" > Developed and designed home page. Utilized HTML, CSS, and the Bootstrap library for the styling.</h4>
+    </th>
+
+  </table></th>
+  <th><table border="5" cellpadding="5" cellspacing="0" align=center style="background-color:#89cff0" width="270" height="5">
+    <th>
+      <h3 class = "text-center" > Kyle <br> </h3>
+      <h4 class= "text-center" >  Created search page, used Flask & the Yelp API to create requests and information of businesses.</h4>
+
+    </th>
+  </table></th>
+  <th><table border="5" cellpadding="5" cellspacing="0" align=center style="background-color:#89cff0" width="270" height="5">
+    <th>
+      <h3 class = "text-center" > Michael <br> </h3>
+  <h4 class= "text-center" >Developed the About Page, general aesthetics for project using HTML, CSS and Bootstrap</h4>
+    </th>
+  </table></th>
+</table>
+
+
+    <div class="container" style="color:white" align=center >
+      <div class="row">
+        <div class="col-sm" >
+
+          <br><br>
+          Front-end Developer
+        </div>
+        <div class="col-sm">
+          <br><br>
+          Back-end & Front-end Developer
+        </div>
+        <div class="col-sm">
+          <br><br>
+          Front-end Developer
+        </div>
+      </div>
+    </div>
+
+
+
+
+<br><br>
+  <link rel="stylesheet"href="{{ url_for('static', filename='stylesheets/about.css') }}">
+
+
+
+  <div class="Logo" align=center>
+    <img src="https://media.discordapp.net/attachments/624471626653892609/774414951598391306/unknown.png">
+  </div>
+  <div class="Logo" align = "center">
+    <img src="/static/logo" alt="main logo">
+  </div>
+  <div class="Inspiration" align=center style="color:white">
+    We each had our own reasons for working on such a project. One was to improve our reputation through hard work and dedication.<br>
+    Another was to expand our skillset regarding web development, and others included increasing the number of achievements. ***Unfinished***
+    <br><br><br><br><br>
+      <a class="navbar-brand mx-5 text-muted h1" href="/search">Click Me to Learn More About Your Local Art Community!</a>
+
+    <br><br><br><br><br><br><br><br><br><br>
+  </div>
+</body>
+
+
+
+
+
+
+
+
 </html>
