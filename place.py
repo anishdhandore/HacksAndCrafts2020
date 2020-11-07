@@ -5,9 +5,11 @@ class Place():
         self.number = number
         self.photo = photo
 
+
     def printPlace(self):
         print(self.name)
         print(self.location)
         print(self.number)
         print(self.photo)
         print("")
+

@@ -1,8 +1,9 @@
 body{
-    background-color: aqua;
+    text-align: center;
 }
 h1{
-    color: blue;
+    color: beige;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 container{
     width: 130px;
@@ -16,3 +17,14 @@ container{
     margin-right: auto;
     width: 50%;
 }
+
+a{
+    color:  #5e666e;
+  }
+  a:hover{
+    color: white;
+  }
+
+
+
+
