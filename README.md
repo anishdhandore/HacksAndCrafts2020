@@ -1,6 +1,8 @@
 # Our Artistic Space
 ## Connect with your art community!
 
+### Awarded "My First Crafts Project" at Hacks And Crafts 2020
+
 ## Inspiration
 
 We wanted to build an application that would help out the local art community. Many people who are artists or are interested in art can use our website, Our Artistic Space, to find art museums, galleries, schools, and stores in their local area. Many people are not aware of the local art businesses in their city so our website could help people learn more about their art community which give them amazing experiences as well as the opportunity to meet with other people and artists.
