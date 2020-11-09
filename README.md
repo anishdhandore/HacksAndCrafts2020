@@ -1,7 +1,7 @@
 # Our Artistic Space
 ## Connect with your art community!
 
-### Awarded "My First Crafts Project" at Hacks And Crafts 2020
+### Awarded "My First Crafts Project" (Best Beginner Hack) at Hacks And Crafts 2020
 
 ## Inspiration
 
